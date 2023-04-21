@@ -1,0 +1,39 @@
+.hero {
+  position: relative;
+  padding-top: 37px;
+  text-align: center;
+}
+
+.hero__title {
+  margin-bottom: 43px;
+  /* font */
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.hero__btn {
+  margin-bottom: 27px;
+}
+
+.icon {
+  position: absolute;
+}
+
+.icon__line {
+  composes: icon;
+  top: 185px;
+  right: 197px;
+}
+
+.icon__plane {
+  composes: icon;
+  top: 228px;
+  left: 123px;
+}
+
+.icon__flag {
+  composes: icon;
+  top: 264px;
+  right: 110px;
+}

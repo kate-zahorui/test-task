@@ -1,8 +1,9 @@
 import { Background, Container, Header, Hero } from "./components";
+import s from "./App.module.css";
 
 function App() {
   return (
-    <div>
+    <div className={s.app}>
       <Header />
       <Background>
         <Container>

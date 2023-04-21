@@ -1,0 +1,26 @@
+.button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+  border-radius: 10px;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* font */
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.button:hover,
+.button:focus {
+  color: var(--accent-color);
+  background-color: var(--secondary-text-color);
+}
+
+.button__high {
+  composes: button;
+  padding: 17px 30px;
+}
+
+.button__wide {
+  composes: button;
+  padding: 10px 40px;
+}

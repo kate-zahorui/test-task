@@ -1,0 +1,9 @@
+.background {
+  flex-grow: 1;
+  padding-bottom: 120px;
+  background-image: linear-gradient(
+    to bottom,
+    var(--background-color) 726px,
+    var(--accent-color) 726px
+  );
+}
