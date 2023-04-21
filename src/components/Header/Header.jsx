@@ -5,7 +5,9 @@ const Header = () => (
   <header className={s.header}>
     <Container>
       <div className={s.header__container}>
-        <a href="./" className={s.logo__icon}></a>
+        <a href="./" className={s.logo__icon}>
+          {}
+        </a>
         <div className={s.header__navWrapper}>
           <Navigation />
           <Button variant="wide">Schedule a call</Button>
